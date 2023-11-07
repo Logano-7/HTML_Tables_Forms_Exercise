@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    border: 2px solid #607aff;
+    border-collapse: collapse;
+    background-color: beige;
+    color: #444;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #111, #444);
+    color: #eee;
+    margin: 40px;
+
+}
+
+tbody tr th {
+    background-color: ;
+}
+caption {
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+tr, td {
+    border: 2px dashed rgba(96, 122, 255, 0.4);
+}
+#sodaForm {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 5px;
+    font-weight: bold;
+
+}
+button:hover {
+    background-color: #607aff;
+    color: #eee;
+    cursor: pointer;
+}
+
